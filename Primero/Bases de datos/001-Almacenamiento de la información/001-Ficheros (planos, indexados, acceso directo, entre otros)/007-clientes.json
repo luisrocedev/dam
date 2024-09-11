@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientes>
+    <cliente>
+        <nombre>
+            Jose Vicente
+        </nombre>
+        <apellidos>
+            Carratalá
+        </apellidos>
+        <telefono>
+            6436456
+        </telefono>
+        <email>
+            info@josevicentecarratala.com
+        </email>
+    </cliente>
+    <cliente>
+        <nombre>
+            Jose Vicente
+        </nombre>
+        <apellidos>
+            Carratalá
+        </apellidos>
+        <telefono>
+            6436456
+        </telefono>
+        <email>
+            info@josevicentecarratala.com
+        </email>
+    </cliente>
+</clientes>
