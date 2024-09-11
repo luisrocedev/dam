@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.104894"
-     inkscape:cx="566.57017"
-     inkscape:cy="396.41811"
+     inkscape:cx="566.57019"
+     inkscape:cy="395.51305"
      inkscape:window-width="1920"
      inkscape:window-height="1057"
      inkscape:window-x="-8"
@@ -69,11 +69,11 @@
        y="50.76656" />
     <path
        style="fill:#000000;stroke:#000000;stroke-width:1.003;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#Arrow1)"
-       d="M 144.15786,15.804683 V 49.569232"
+       d="M 147.51037,15.804683 V 49.569232"
        id="path346" />
     <path
        style="fill:#000000;stroke:#000000;stroke-width:1.003;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#Arrow1)"
-       d="m 144.15786,150.86288 v 33.76455"
+       d="m 147.51037,150.86288 v 33.76455"
        id="path1173" />
   </g>
 </svg>
