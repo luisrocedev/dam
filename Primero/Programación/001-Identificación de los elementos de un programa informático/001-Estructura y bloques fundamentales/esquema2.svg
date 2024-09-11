@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="esquema2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.5625561"
+     inkscape:cx="554.86007"
+     inkscape:cy="396.14577"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow1"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow1"
+       markerWidth="4.0606604"
+       markerHeight="6.7071066"
+       viewBox="0 0 4.0606602 6.7071068"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         id="path5057"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;stroke:#000000;stroke-width:1.003;stroke-linecap:round;stroke-linejoin:round"
+       id="rect238"
+       width="99.856865"
+       height="99.856865"
+       x="96.983284"
+       y="50.76656" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:1.003;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#Arrow1)"
+       d="M 144.15786,15.804683 V 49.569232"
+       id="path346" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:1.003;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#Arrow1)"
+       d="m 144.15786,150.86288 v 33.76455"
+       id="path1173" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.003;stroke-linecap:round;stroke-linejoin:round"
+       id="rect1991"
+       width="74.842644"
+       height="13.376853"
+       x="108.87742"
+       y="55.539337" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.003;stroke-linecap:round;stroke-linejoin:round"
+       id="rect2097"
+       width="74.842644"
+       height="49.782211"
+       x="108.87742"
+       y="73.99601" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.003;stroke-linecap:round;stroke-linejoin:round"
+       id="rect2099"
+       width="74.842644"
+       height="13.376853"
+       x="108.87742"
+       y="129.87401" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:7.50928px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#ffffff;stroke:#000000;stroke-width:0.610001;stroke-linecap:round;stroke-linejoin:round"
+       x="117.62439"
+       y="64.900711"
+       id="text2155"><tspan
+         sodipodi:role="line"
+         id="tspan2153"
+         style="fill:#000000;stroke:none;stroke-width:0.610001"
+         x="117.62439"
+         y="64.900711">toma de datos</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:7.50928px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#ffffff;stroke:#000000;stroke-width:0.610001;stroke-linecap:round;stroke-linejoin:round"
+       x="131.17056"
+       y="100.96743"
+       id="text2311"><tspan
+         sodipodi:role="line"
+         id="tspan2309"
+         style="fill:#000000;stroke:none;stroke-width:0.610001"
+         x="131.17056"
+         y="100.96743">cálculos</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:7.50928px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#ffffff;stroke:#000000;stroke-width:0.610001;stroke-linecap:round;stroke-linejoin:round"
+       x="113.3912"
+       y="138.55807"
+       id="text2315"><tspan
+         sodipodi:role="line"
+         id="tspan2313"
+         style="fill:#000000;stroke:none;stroke-width:0.610001"
+         x="113.3912"
+         y="138.55807">ofrecer resultados</tspan></text>
+  </g>
+</svg>
