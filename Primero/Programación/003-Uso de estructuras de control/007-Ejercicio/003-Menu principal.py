@@ -1,0 +1,19 @@
+'''
+    Programa agenda
+    (c) 2024 Jose Vicente Carratalá
+'''
+# Bienvenida #################
+
+TITULO = "Programa agenda"
+AUTOR = "Jose Vicente Carratalá"
+print(TITULO,"por",AUTOR)
+
+# Menu principal
+
+print("Escoge una opción")
+print("1.-Insertar")
+print("2.-Listar")
+print("3.-Actualizar")
+print("4.-Eliminar")
+
+
