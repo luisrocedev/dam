@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.0179639"
-     inkscape:cx="515.24419"
-     inkscape:cy="300.60004"
+     inkscape:zoom="1.4396184"
+     inkscape:cx="459.49678"
+     inkscape:cy="409.13621"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
@@ -162,5 +162,120 @@
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.964999;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide)"
        d="M 88.018727,122.2602 V 106.26181"
        id="path6" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.964999;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide)"
+       d="M 88.018727,122.2602 V 106.26181"
+       id="path2" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.964999;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide)"
+       d="M 113.43051,90.363643 H 129.4289"
+       id="path3" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.965;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6"
+       width="65.520493"
+       height="29.341541"
+       x="130.53258"
+       y="42.616837"
+       ry="4.7025657" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.8525px;fill:none;stroke:#000000;stroke-width:3.29849;stroke-dasharray:none;stroke-opacity:1"
+       x="134.5374"
+       y="54.592766"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.29849"
+         x="134.5374"
+         y="54.592766">css</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.965;stroke-dasharray:none;stroke-opacity:1"
+       id="rect7"
+       width="65.520493"
+       height="29.341541"
+       x="130.53258"
+       y="60.294426"
+       ry="4.7025657" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.8525px;fill:none;stroke:#000000;stroke-width:3.29849;stroke-dasharray:none;stroke-opacity:1"
+       x="134.5374"
+       y="72.270355"
+       id="text7"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.29849"
+         x="134.5374"
+         y="72.270355">html</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.965;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8"
+       width="65.520493"
+       height="29.341541"
+       x="130.53258"
+       y="76.12056"
+       ry="4.7025657" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.8525px;fill:none;stroke:#000000;stroke-width:3.29849;stroke-dasharray:none;stroke-opacity:1"
+       x="134.5374"
+       y="88.096489"
+       id="text8"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.29849"
+         x="134.5374"
+         y="88.096489">js</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.965;stroke-dasharray:none;stroke-opacity:1"
+       id="rect9"
+       width="65.520493"
+       height="29.341541"
+       x="130.53258"
+       y="122.1603"
+       ry="4.7025657" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.8525px;fill:none;stroke:#000000;stroke-width:3.29849;stroke-dasharray:none;stroke-opacity:1"
+       x="134.5374"
+       y="134.13623"
+       id="text9"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.29849"
+         x="134.5374"
+         y="134.13623">php</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.965;stroke-dasharray:none;stroke-opacity:1"
+       id="rect10"
+       width="65.520493"
+       height="29.341541"
+       x="130.53258"
+       y="141.73308"
+       ry="4.7025657" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.8525px;fill:none;stroke:#000000;stroke-width:3.29849;stroke-dasharray:none;stroke-opacity:1"
+       x="134.5374"
+       y="153.70901"
+       id="text10"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.29849"
+         x="134.5374"
+         y="153.70901">MySQL</tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.964999;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide)"
+       d="m 151.11463,105.3382 v 15.99839"
+       id="path10" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.964999;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide)"
+       d="M 170.10438,122.2602 V 106.26181"
+       id="path11" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.964999;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide)"
+       d="M 170.10438,122.2602 V 106.26181"
+       id="path12" />
   </g>
 </svg>
