@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Aprendiendo Javascript</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <input id="edad">
+    <script>
+      document.getElementById("edad").onchange = function(){
+        var edad = this.value;    // this es el elemento del cual provengo
+        edad = parseInt(edad);
+        console.log(edad+5);
+      }
+    </script>
+  </body>
+</html>
