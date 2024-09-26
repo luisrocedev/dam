@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Blog</title>
+    <meta charset="utf-8">
+    <style>
+      body{background:darkcyan;font-family:sans-serif;}
+      header,main,footer{
+        padding:20px;margin:auto;background:white;width:800px;
+        text-align:center;
+      }
+      article{
+        background:lightcyan;text-align:justify;
+        box-sizing:border-box;padding:20px;margin:10px 0px;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Blog</h1>
+      <h2>El blog de Jose Vicente</h2>
+    </header>
+    <main>
+      <section>
+      </section>
+    </main>
+    <footer>
+      (c) 2024 Jose Vicente Carratalá
+    </footer>
+    <script>
+      fetch("http://127.0.0.1:5000")
+      .then(function(response){
+        return response.json();
+      })
+      .then(function(entradas){
+        console.log(entradas)
+        entradas.forEach(function(entrada){
+          let seccion = document.querySelector("section")
+          seccion.innerHTML += `
+            <article>
+              <h3>`+entrada.titulo+`</h3>
+              <time>`+entrada.fecha+`</time>
+              <p>`+entrada.contenido+`</p>
+            </article>
+          `
+        })
+      })
+    </script>
+  </body>
+</html>
