@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Blog</title>
+    <meta charset="utf-8">
+    <style>
+    body,html{
+      background:rgb(240,240,240);
+      padding:0px;
+      margin:0px;
+    }
+    header{
+      background:white;
+      padding:20px;
+    }
+    h1{
+      padding:0px;
+      margin:0px;
+      display:inline-block;
+    }
+    nav{
+      display:inline-block;
+      font-family:sans-serif;
+      text-transform:uppercase;
+      font-weight:bold;
+    }
+    nav ul{
+      padding:0px;
+      margin:0px;
+      list-style-type:none;
+    }
+    nav ul li{
+      display:inline-block;
+      padding:20px;
+    }
+    header input,header button{
+      float:right;
+    }
+    header button{
+      background:#00c398;
+      color:white;
+      padding:15px;
+      border:none;
+      border-radius:40px;
+      text-transform:uppercase;
+      font-weight:bold;
+      margin-left:20px;
+    }
+    header input{
+      padding:15px;
+      border:none;
+      text-transform:uppercase;
+      font-weight:bold;
+      padding-left:20px;
+    }
+    main{
+      width:1000px;
+      margin:auto;
+      margin-top:50px;
+    }
+    main #destacado{
+      width:100%;
+    
+    }
+    main #destacado #principal{
+      width:70%;
+      background:white;
+      border-radius:10px;
+      box-shadow:0px 5px 10px rgba(0,0,0,0.3);
+      overflow:hidden;
+      font-family:sans-serif;
+    }
+    main #destacado #principal img{
+      width:100%;
+    }
+    main #destacado #principal h4,main #destacado #principal h3{
+      padding:20px;
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>MiBlog</h1>
+      <nav>
+        <ul>
+          <li>Writing</li>
+          <li>Product</li>
+          <li>Company</li>
+        </ul>
+      </nav>
+       <button>Start Writing</button>
+        <input type="search" placeholder="search">
+       
+      
+    </header>
+    <main>
+      <section id="destacado">
+        <div id="principal">
+          <img src="josevicente.jpg">
+          <h4>Titulin</h4>
+          <h3>Este es el título del contenido destacado que tenemos en la pantalla</h3>
+        </div>
+      </section>
+      <section id="articulos">
+      </section>
+    </main>
+  </body>
+</html>
