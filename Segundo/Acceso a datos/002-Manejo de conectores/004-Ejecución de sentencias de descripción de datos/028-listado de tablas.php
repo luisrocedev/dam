@@ -22,14 +22,30 @@
 					$this->usuario, 
 					$this->contrasena, 
 					$this->basededatos
-				);																						// Establezco una conexión con la base de datos
+				);																															// Establezco una conexión con la base de datos
     }
-			public function seleccionaTabla($tabla){				// Creo un metodo de seleccion
-				$query = "SELECT * FROM ".$tabla.";";					// Creo la petición dinámica
-				$result = mysqli_query($this->conexion , $query);		// Ejecuto la peticion
-				$resultado = [];															// Creo un array vacio
-				while ($row = mysqli_fetch_assoc($result)) {	// PAra cada uno de los registros
-						//$resultado[] = $row;											// Los añado al array
+			public function seleccionaTabla($tabla){													// Creo un metodo de seleccion
+				$query = "SELECT * FROM ".$tabla.";";														// Creo la petición dinámica
+				$result = mysqli_query($this->conexion , $query);								// Ejecuto la peticion
+				$resultado = [];																								// Creo un array vacio
+				while ($row = mysqli_fetch_assoc($result)) {										// PAra cada uno de los registros
+						//$resultado[] = $row;																			// Los añado al array
+						$fila = [];
+						foreach($row as $clave=>$valor){
+							$fila[$clave] = $valor;
+						}
+						$resultado[] = $fila;
+				}
+				$json = json_encode($resultado, JSON_PRETTY_PRINT);							// Lo codifico como json
+				return $json;																										// Devuelvo el json
+			}
+			
+			public function listadoTablas(){
+				$query = "SHOW TABLES;";																				// Creo la petición dinámica
+				$result = mysqli_query($this->conexion , $query);								// Ejecuto la peticion
+				$resultado = [];																								// Creo un array vacio
+				while ($row = mysqli_fetch_assoc($result)) {										// PAra cada uno de los registros
+						//$resultado[] = $row;																			// Los añado al array
 						$fila = [];
 						foreach($row as $clave=>$valor){
 							$fila[$clave] = $valor;
@@ -62,6 +78,8 @@
 	
 	$conexion = new conexionDB();												//
 	
-	echo $conexion->seleccionaTabla("empleados");												//
+	echo $conexion->seleccionaTabla("empleados");	
+	echo "<br><br>";
+	echo $conexion->listadoTablas();		//
 	
 ?>
