@@ -27,26 +27,38 @@
 									FROM 
 											information_schema.key_column_usage
 									WHERE 
-											table_name = '".$tabla."';";											// Formateo una consulta SQL para ver qué campos tienen restricciones
+											table_name = '".$tabla."'
+											AND
+											REFERENCED_TABLE_NAME IS NOT NULL
+											;";											// Formateo una consulta SQL para ver qué campos tienen restricciones
+				
 				$result = mysqli_query($this->conexion , $query);								// Ejecuto la consulta contra la base de datos	
 				$restricciones = [];																						// Creo un array vacio para guardar las restricciones
 				while ($row = mysqli_fetch_assoc($result)) {										// Recupero los datos del servidor
 					$restricciones[] = $row;																			// Hago un push encubierto a las restricciones
 				}
 				
-				var_dump($restricciones);																				// Las debugeo en pantalla
+				//var_dump($restricciones);																				// Las debugeo en pantalla
 				
 				$query = "SELECT * FROM ".$tabla.";";														// Creo la petición dinámica
 				$result = mysqli_query($this->conexion , $query);								// Ejecuto la peticion
 				$resultado = [];																								// Creo un array vacio
 				while ($row = mysqli_fetch_assoc($result)) {										// PAra cada uno de los registros
 						//$resultado[] = $row;																			// Los añado al array
-						$fila = [];
-						foreach($row as $clave=>$valor){
-							$fila[$clave] = $valor;
-							echo "La clave ".$clave." tiene el valor ".$valor;
+						$fila = [];																									// Creo el conjunto de datos para cada fila
+						foreach($row as $clave=>$valor){														// PAra cada una de las columnas
+							$pasas = true;																						// En principio asumimos que no hay restriccion
+							foreach($restricciones as $restriccion){									// Para cada una de las restricciones
+								if($clave == $restriccion["COLUMN_NAME"]){							// En el caso de que se detecte que esta columna forma parte de las restricciones
+									$fila[$clave] = "datos externos";											// En la celda devolvemos un string tontorron
+									$pasas = false;																				// Cambiamos el estado de la variable a falso
+								}
+							}
+						if($pasas == true){																					// en el caso de que la variable siga siendo verdadera
+							$fila[$clave] = $valor;																		// En ese caso el valor de la variable es el valor real de la tabla
 						}
-						$resultado[] = $fila;
+						}
+						$resultado[] = $fila;		
 				}
 				$json = json_encode($resultado, JSON_PRETTY_PRINT);							// Lo codifico como json
 				return $json;																										// Devuelvo el json
