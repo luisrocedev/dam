@@ -16,7 +16,7 @@ cliente.connect(('localhost', 9993))                                            
 while True:                                                                     # entro en un bucle
     mimensaje = input("Dime tu mensaje: ")                                      # Atrapo la entrada del usuario
 
-    cliente.send(mimensaje.encode('utf-8'))                                     # Le envío el mensaje desde el cliente hasta el servidor
+    cliente.send(mimensaje.encode('utf-8'))                                    # Le envío el mensaje desde el cliente hasta el servidor
 
     respuesta = cliente.recv(1024).decode('utf-8')                              # Cuando reciba una respusta por parte del servidor
     clear_screen()
@@ -26,4 +26,6 @@ while True:                                                                     
         print("Cerrando la conexión con el servidor.")                          # Imprime un mensaje
         break                                                                   # Sal del bucle, cierra la conexion
 
+
+    
 cliente.close()                                                                 # Cierra la conexión
