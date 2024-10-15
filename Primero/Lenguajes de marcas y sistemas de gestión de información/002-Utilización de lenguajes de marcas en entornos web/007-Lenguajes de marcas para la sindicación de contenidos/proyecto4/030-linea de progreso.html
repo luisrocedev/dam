@@ -141,6 +141,7 @@
       <button id="posterior">></button>
     </nav>
     <main>
+    <article id="pagina0"></article>
       <article id="pagina1" style="background:url(imagenes/1.png);background-size:cover;">
         <div class="texto">
           <h1>Título de la pieza 1</h1>
@@ -182,8 +183,8 @@
     <div id="progreso"></div>
     <script>
       var numeropaginas = document.querySelectorAll("article").length   // Cuento el numero de articulos que hay en la web
-      var pagina = 1;                                                   // Cuando el programa inicia, estoy en la pagina 1
-      muestraPagina()
+      var pagina = 0;                                                   // Cuando el programa inicia, estoy en la pagina 1
+      //muestraPagina()
       document.querySelector("#anterior").onclick = function(){         // Cuando pulso el boton con el id anterior
         borraPaginas()
         if(pagina > 1){                                                 // Si el numero de pagina es mayor que cero
