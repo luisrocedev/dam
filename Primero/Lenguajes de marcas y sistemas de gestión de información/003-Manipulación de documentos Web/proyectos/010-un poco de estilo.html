@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head lang="es"> 
+    <title>CRUD</title>
+    <meta charset="utf-8">
+    <style>
+      #listado{
+        width:500px;
+        height:1000px;
+        border:1px solid grey;
+      }
+    </style>
+  <body>
+    <h3>Insertar un nuevo cliente</h3>
+    <input id="nombre" placeholder="nombre">
+    <input id="apellidos" placeholder="apellidos">
+    <input id="email" placeholder="email">
+    <button id="guardar">Guardar</button>
+    <h3>Obtener un listado de clientes</h3>
+    <button id="leer">Obtener listado</button>
+    <div id="listado"></div>
+    <script>
+      //////////////////////////// DECLARACIÓN DE VARIABLES GLOBALES ////////////////////////////////////////
+      
+      var coleccion = []                                      // Creo una colección vacía de elementos
+      
+      //////////////////////////// ACCIÓN DEL BOTÓN DE GUARDAR ////////////////////////////////////////
+      
+      let boton = document.querySelector("#guardar")          // Selecciono el elemento que tiene el ID guardar
+      boton.onclick = function(){                             // Cuando haga click en el boton
+        console.log("Has hecho click en el boton")            // Pongo un mensaje de depuración (de-bug)
+        let nombre = document.querySelector("#nombre").value  // Recojo el valor del elemento cuyo id es nombre
+        let apellidos = document.querySelector("#apellidos").value  // Recojo el valor del elemento cuyo id es apellidos
+        let email = document.querySelector("#email").value    // Recojo el valor del elemento cuyo id es email
+        console.log(nombre,apellidos,email)                   // Imprime por pantalla el valor de aquello que hemos recogido
+        let objeto = {"nombre":nombre,"apellidos":apellidos,"email":email}  // Creo un objeto en el cual estructuro mejor la información
+        console.log(objeto)                                   // LAnzo el objeto por consola
+        coleccion.push(objeto)                                // Inserto un elemento mas al final de la coleccion
+        console.log(coleccion)                                // Lanzo en la consola la coleccion para comprobar que no estoy perdiendo nada
+      }
+    </script>
+  </body>
+</html>

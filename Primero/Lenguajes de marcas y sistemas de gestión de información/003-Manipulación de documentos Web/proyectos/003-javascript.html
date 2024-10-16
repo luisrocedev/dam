@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head lang="es"> 
+    <title>CRUD</title>
+    <meta charset="utf-8">
+  <body>
+    <input id="nombre" placeholder="nombre">
+    <input id="apellidos" placeholder="apellidos">
+    <input id="email" placeholder="email">
+    <button id="guardar">Guardar</button>
+    <script>
+      let boton = document.querySelector("#guardar")      // Selecciono el elemento que tiene el ID guardar
+      boton.onclick = function(){                         // Cuando haga click en el boton
+        console.log("Has hecho click en el boton")        // Pongo un mensaje de depuración (de-bug)
+      }
+    </script>
+  </body>
+</html>
