@@ -1,0 +1,19 @@
+Crea un programa en Python. 
+El modelo de datos de este programa está basado en clases. Esto quiere decir que en primer lugar tienes que crear una serie de clases en base al siguiente modelo de datos:
+
+-clientes
+	-id
+	-nombre
+	-apellidos
+	-email
+-productos
+	-id
+	-nombre
+	-descripcion
+	-precio
+
+A continuación crea un programa de consola que sea capaz de implementar las operaciones CRUD para estas entidades. Este programa deberá ser capaz de persistir (guardar información y recuperar informacion) la información utilizando alguna de las estrategias que hemos visto en clase.
+
+Tienes que desarrollar el ejercicio paso a paso (igual que lo hago yo)
+Puedes utilizar todos tus apuntes. 
+No puedes consultar en internet ni utilizar ChatGPT
