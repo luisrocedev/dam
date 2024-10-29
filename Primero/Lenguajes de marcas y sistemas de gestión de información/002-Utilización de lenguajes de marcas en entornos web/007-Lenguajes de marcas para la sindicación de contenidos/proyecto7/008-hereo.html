@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+	<head>
+		<style>
+			/*////////////// ESTILOS GENERALES ///////////////*/
+			:root{
+				--primario:#336659;
+			}
+			body,html{
+				padding:0px;
+				margin:0px;
+				font-family:sans-serif;
+			}
+			header,section,footer{
+				width:100%;
+			}
+			.contenedor{
+				width:1000px;
+				margin-left:auto;
+				margin-right:auto;
+				/*border:1px solid grey;*/
+			}
+			/*////////////// ESTILOS DE LA CABECERA ///////////////*/
+			header{
+				height:100px;
+				background:white;
+				display:flex;
+				flex-direction: row;
+				flex-wrap: nowrap;
+				justify-content: space-between;
+				align-items: center;
+				align-content: center;
+			}
+			header .identidad,header nav,header button{
+				display:inline-block;
+			}
+			.identidad{
+				width:30%;
+			}
+			nav{
+				width:39%;
+			}
+			header button{
+				width:30%;
+			}
+			header .identidad *{
+				padding:0px;
+				margin:0px;
+			}
+			header .identidad h1{
+				font-size:18px;
+			}
+			header .identidad h2{
+				font-size:12px;
+			}
+			header nav ul{
+				list-style-type:none;
+				padding:0px;
+				margin:0px;
+			}
+			header nav ul li{
+				display:inline-block;
+				font-size:11px;
+				text-transform:uppercase;
+				padding:5px;
+				font-weight:bold;
+				
+			}
+			header nav ul li a{
+				color:inherit;
+				text-decoration:none;
+			}
+			header .contenedor{
+				
+			}
+			header .contenedor *{
+				vertical-align:middle;
+			}
+			header button{
+				background:var(--primario);
+				border:none;
+				color:white;
+				padding:10px;
+				text-transform:uppercase;
+				font-weight:bold;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="contenedor">
+				<div class="identidad">
+					<h1>Jose Vicente Carratala</h1>
+					<h2>Programador, profesor y diseñador</h2>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Accelerator</a></li>
+						<li><a href="#">Intensive</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Speaking</a></li>
+					</ul>
+				</nav>
+				<button>Join my email series</button>
+			</div>
+		</header>
+		<section id="uno">
+			<div class="contenedor">
+			</div>
+		</section>
+		<section id="dos">
+			<div class="contenedor">
+			</div>
+		</section>
+		<section id="tres">
+			<div class="contenedor">
+			</div>
+		</section>
+		<section id="cuatro">
+			<div class="contenedor">
+			</div>
+		</section>
+		<section id="cinco">
+			<div class="contenedor">
+			</div>
+		</section>
+		<section id="seis">
+			<div class="contenedor">
+			</div>
+		</section>
+		<footer>
+			<div class="contenedor">
+			</div>
+		</footer>
+	</body>
+</html>

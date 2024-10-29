@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+	<head>
+		<style>
+			/*////////////// ESTILOS GENERALES ///////////////*/
+			:root{
+				--primario:#336659;
+				--secundario:#3c5f01;
+				--terciario:#c5d2af;
+			}
+			body,html{
+				padding:0px;
+				margin:0px;
+				font-family:sans-serif;
+			}
+			header,section,footer{
+				width:100%;
+			}
+			.contenedor{
+				width:1000px;
+				margin-left:auto;
+				margin-right:auto;
+				/*border:1px solid grey;*/
+			}
+			/*////////////// ESTILOS DE LA CABECERA ///////////////*/
+			header{
+				height:100px;
+				background:white;
+				display:flex;
+				flex-direction: row;
+				flex-wrap: nowrap;
+				justify-content: space-between;
+				align-items: center;
+				align-content: center;
+			}
+			header .identidad,header nav,header button{
+				display:inline-block;
+			}
+			.identidad{
+				width:30%;
+			}
+			nav{
+				width:39%;
+			}
+			header button{
+				width:30%;
+			}
+			header .identidad *{
+				padding:0px;
+				margin:0px;
+			}
+			header .identidad h1{
+				font-size:18px;
+			}
+			header .identidad h2{
+				font-size:12px;
+			}
+			header nav ul{
+				list-style-type:none;
+				padding:0px;
+				margin:0px;
+			}
+			header nav ul li{
+				display:inline-block;
+				font-size:11px;
+				text-transform:uppercase;
+				padding:5px;
+				font-weight:bold;
+				
+			}
+			header nav ul li a{
+				color:inherit;
+				text-decoration:none;
+			}
+			header .contenedor{
+				
+			}
+			header .contenedor *{
+				vertical-align:middle;
+			}
+			header button{
+				background:var(--primario);
+				border:none;
+				color:white;
+				padding:10px;
+				text-transform:uppercase;
+				font-weight:bold;
+			}
+			/*////////////// ESTILOS DE LA PANCARTA HEROE ///////////////*/
+			#uno{
+				background:var(--secundario) url(bannerpng.png);
+				background-size:contain;
+				background-repeat:no-repeat;
+				height:590px;
+			}
+			#uno .texto{
+				width:50%;
+				color:white;
+				float:right;
+				text-align:justify;
+			}
+			#uno .texto h4{
+				font-size:24px;
+			}
+			#uno .texto h3{
+				font-size:36px;
+			}
+			#uno .texto button{
+				width:400px;
+				background:white;
+				color:var(--primario);
+				padding:10px;
+				border:none;
+				text-transform:uppercase;
+				font-weight:bold;
+			}
+			/*////////////// ESTILOS DE LA SEGUNDA SECCION ///////////////*/
+			#dos{
+				background:var(--terciario);
+				height:545px;
+				padding-top:20px;
+			}
+			#dos .contenedor{
+				display: flex;
+				flex-direction: row;
+				flex-wrap: nowrap;
+				justify-content: space-between;
+				align-items: center;
+				align-content: center;
+			}
+			#dos .contenedor>*{
+				width:49%;
+			}
+			#dos .texto h4{
+				font-size:24px;
+			}
+			#dos .texto h3{
+				font-size:36px;
+			}
+			#dos button{
+				background:var(--primario);
+				border:none;
+				color:white;
+				padding:10px;
+				text-transform:uppercase;
+				font-weight:bold;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="contenedor">
+				<div class="identidad">
+					<h1>Jose Vicente Carratala</h1>
+					<h2>Programador, profesor y diseñador</h2>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Accelerator</a></li>
+						<li><a href="#">Intensive</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Speaking</a></li>
+					</ul>
+				</nav>
+				<button>Join my email series</button>
+			</div>
+		</header>
+		<section id="uno">
+			<div class="contenedor">
+				<div class="texto">
+					<h4>Mensaje secundario</h4>
+					<h3>Mensaje principal</h3>
+					<p class="negrita">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<button>Work with me</button>
+				</div>
+			</div>
+		</section>
+		<section id="dos">
+			<div class="contenedor">
+				<div class="texto">
+					<h4>Recurso gratuito</h4>
+					<h3>Suscribete para emails semanales</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<button>Sign up now!</button>
+				</div>
+				<img src="josevicente.jpg">
+			</div>
+		</section>
+		<section id="tres">
+			<div class="contenedor">
+			</div>
+		</section>
+		<section id="cuatro">
+			<div class="contenedor">
+			</div>
+		</section>
+		<section id="cinco">
+			<div class="contenedor">
+			</div>
+		</section>
+		<section id="seis">
+			<div class="contenedor">
+			</div>
+		</section>
+		<footer>
+			<div class="contenedor">
+			</div>
+		</footer>
+	</body>
+</html>
