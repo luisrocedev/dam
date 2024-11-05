@@ -15,8 +15,20 @@ const ctx = canvas.getContext('2d');
 
 // Audio setup
 let audioContext;
+let mainGainNode;
+
 document.getElementById('startSound').onclick = () => {
-    audioContext = new (window.AudioContext || window.webkitAudioContext)();
+    // Crear el contexto de audio si no existe
+    if (!audioContext) {
+        audioContext = new (window.AudioContext || window.webkitAudioContext)();
+
+        // Configurar el nodo de ganancia principal para controlar el volumen general
+        mainGainNode = audioContext.createGain();
+        mainGainNode.gain.value = 0.2; // Ajusta el volumen general (puedes reducirlo aún más si es necesario)
+        
+        // Conectar el nodo de ganancia principal al destino (salida de audio)
+        mainGainNode.connect(audioContext.destination);
+    }
 };
 
 // Cmaj scale frequencies
@@ -81,7 +93,6 @@ function drawCircleAndSegments() {
     });
 }
 
-// Function to play a sound for a given frequency
 function playSound(frequency) {
     if (!audioContext) return;
 
@@ -94,17 +105,20 @@ function playSound(frequency) {
     // ADSR envelope parameters
     const attackTime = 0.1;
     const decayTime = 0.2;
-    const sustainLevel = 0.5;
+    const sustainLevel = 0.2; // Ajustar el sustain si es necesario
     const releaseTime = 0.5;
 
     gainNode.gain.setValueAtTime(0, audioContext.currentTime);
-    gainNode.gain.linearRampToValueAtTime(0.1, audioContext.currentTime + attackTime);
+    gainNode.gain.linearRampToValueAtTime(0.03, audioContext.currentTime + attackTime); // Volumen bajo por nota
     gainNode.gain.linearRampToValueAtTime(sustainLevel, audioContext.currentTime + attackTime + decayTime);
     gainNode.gain.setValueAtTime(sustainLevel, audioContext.currentTime + attackTime + decayTime + 0.1);
     gainNode.gain.linearRampToValueAtTime(0, audioContext.currentTime + attackTime + decayTime + 0.1 + releaseTime);
 
+    // Conectar el oscilador al nodo de ganancia individual
     osc.connect(gainNode);
-    gainNode.connect(audioContext.destination);
+
+    // Conectar el nodo de ganancia individual al mainGainNode para el control global de volumen
+    gainNode.connect(mainGainNode);
 
     osc.start();
     osc.stop(audioContext.currentTime + attackTime + decayTime + 0.1 + releaseTime);
