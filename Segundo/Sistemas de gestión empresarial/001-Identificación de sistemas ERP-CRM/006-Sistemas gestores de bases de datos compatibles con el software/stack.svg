@@ -23,13 +23,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.4396184"
-     inkscape:cx="790.13993"
-     inkscape:cy="443.17299"
+     inkscape:zoom="1.5077902"
+     inkscape:cx="647.3049"
+     inkscape:cy="395.28045"
      inkscape:window-width="1920"
-     inkscape:window-height="1011"
-     inkscape:window-x="0"
-     inkscape:window-y="32"
+     inkscape:window-height="1043"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
@@ -64,19 +64,19 @@
        id="rect13"
        width="65.520493"
        height="29.341541"
-       x="216.39325"
+       x="302.98099"
        y="68.867691"
        ry="4.7025657" />
     <text
        xml:space="preserve"
        style="font-size:10.8525px;fill:none;stroke:#000000;stroke-width:3.29849;stroke-dasharray:none;stroke-opacity:1"
-       x="220.39807"
+       x="306.98581"
        y="80.84362"
        id="text13"><tspan
          sodipodi:role="line"
          id="tspan13"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.29849"
-         x="220.39807"
+         x="306.98581"
          y="80.84362">js</tspan></text>
     <rect
        style="fill:#ffffff;stroke:#000000;stroke-width:0.965;stroke-dasharray:none;stroke-opacity:1"
@@ -249,8 +249,8 @@
     <rect
        style="fill:#ffffff;stroke:#000000;stroke-width:0.965;stroke-dasharray:none;stroke-opacity:1"
        id="rect9"
-       width="65.520493"
-       height="29.341541"
+       width="120.62092"
+       height="29.341545"
        x="130.53258"
        y="122.1603"
        ry="4.7025657" />
@@ -301,76 +301,95 @@
        id="rect11"
        width="65.520493"
        height="29.341541"
-       x="216.39325"
+       x="302.98099"
        y="88.715698"
        ry="4.7025657" />
     <text
        xml:space="preserve"
        style="font-size:10.8525px;fill:none;stroke:#000000;stroke-width:3.29849;stroke-dasharray:none;stroke-opacity:1"
-       x="220.39807"
+       x="306.98581"
        y="100.69163"
        id="text11"><tspan
          sodipodi:role="line"
          id="tspan11"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.29849"
-         x="220.39807"
+         x="306.98581"
          y="100.69163">css</tspan></text>
     <rect
        style="fill:#ffffff;stroke:#000000;stroke-width:0.965;stroke-dasharray:none;stroke-opacity:1"
        id="rect12"
        width="65.520493"
        height="29.341541"
-       x="216.39325"
+       x="302.98099"
        y="106.39329"
        ry="4.7025657" />
     <text
        xml:space="preserve"
        style="font-size:10.8525px;fill:none;stroke:#000000;stroke-width:3.29849;stroke-dasharray:none;stroke-opacity:1"
-       x="220.39807"
+       x="306.98581"
        y="118.36922"
        id="text12"><tspan
          sodipodi:role="line"
          id="tspan12"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.29849"
-         x="220.39807"
+         x="306.98581"
          y="118.36922">html</tspan></text>
     <rect
        style="fill:#ffffff;stroke:#000000;stroke-width:0.965;stroke-dasharray:none;stroke-opacity:1"
        id="rect14"
        width="65.520493"
        height="29.341541"
-       x="216.39325"
+       x="302.98099"
        y="122.1603"
        ry="4.7025657" />
     <text
        xml:space="preserve"
        style="font-size:10.8525px;fill:none;stroke:#000000;stroke-width:3.29849;stroke-dasharray:none;stroke-opacity:1"
-       x="217.32623"
+       x="303.91397"
        y="134.13623"
        id="text14"><tspan
          sodipodi:role="line"
          id="tspan14"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.29849"
-         x="217.32623"
+         x="303.91397"
          y="134.13623">php</tspan></text>
     <rect
        style="fill:#ffffff;stroke:#000000;stroke-width:0.965;stroke-dasharray:none;stroke-opacity:1"
        id="rect15"
        width="65.520493"
        height="29.341541"
-       x="216.39325"
+       x="302.98099"
        y="141.73308"
        ry="4.7025657" />
     <text
        xml:space="preserve"
        style="font-size:10.8525px;fill:none;stroke:#000000;stroke-width:3.29849;stroke-dasharray:none;stroke-opacity:1"
-       x="220.39807"
+       x="306.98581"
        y="153.70901"
        id="text15"><tspan
          sodipodi:role="line"
          id="tspan15"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.29849"
-         x="220.39807"
+         x="306.98581"
          y="153.70901">MySQL</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.965;stroke-dasharray:none;stroke-opacity:1"
+       id="rect16"
+       width="65.520493"
+       height="29.341541"
+       x="185.38887"
+       y="141.73308"
+       ry="4.7025657" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.8525px;fill:none;stroke:#000000;stroke-width:3.29849;stroke-dasharray:none;stroke-opacity:1"
+       x="189.39369"
+       y="153.70901"
+       id="text16"><tspan
+         sodipodi:role="line"
+         id="tspan16"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.29849"
+         x="189.39369"
+         y="153.70901">MongoDB</tspan></text>
   </g>
 </svg>

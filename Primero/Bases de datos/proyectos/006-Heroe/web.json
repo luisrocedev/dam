@@ -1,0 +1,23 @@
+{
+	"cabecera":{
+		"titulo":"Jose Vicente Carratala Sanchis",
+		"subtitulo":"Programador, profesor, diseñador",
+		"menu":[
+			"Inicio",
+			"Sobre mi",
+			"Servicios",
+			"Proyectos",
+			"Páginas",
+			"Contacto"
+		],
+		"boton":"Contáctame"
+	},
+	"heroe":{
+		"titulo":"Hola mundo",
+		"subtitulo":"Hago programas",
+		"texto":"Este es un texto que viene de JSON",
+		"boton1":"Mira mi CV",
+		"boton2":"Contáctame"
+	}
+	
+}

@@ -1,0 +1,119 @@
+{
+  "cabecera": {
+    "titulo": "Jose Vicente Carratala Sanchis",
+    "subtitulo": "Programador, profesor, diseñador",
+    "menu": ["Inicio", "Sobre mi", "Servicios", "Proyectos", "Páginas", "Contacto"],
+    "boton": "Contáctame"
+  },
+  "heroe": {
+    "titulo": "Hola mundo",
+    "subtitulo": "Hago programas",
+    "texto": "Este es un texto que viene de JSON",
+    "boton1": "Mira mi CV",
+    "boton2": "Contáctame"
+  },
+  "sobremi": {
+    "titulo": "Sobre mi",
+    "subtitulo": "Profesor, desarrollador, diseñador",
+    "texto": "Descripción que te envío desde JSON",
+    "firma": "Jose Vicente Carratalá Sanchis",
+    "boton": "Saber más"
+  },
+  "calificaciones": {
+    "titulo": "Calificaciones",
+    "subtitulo": "Habilidades y experiencia",
+    "columna1": {
+      "titulo": "Educación",
+      "elementos": [
+        { "titulo": "Estudios 1", "enlace": "Vinculo externo", "tiempo": "Enero 2020 - Actualmente" },
+        { "titulo": "Estudios 2", "enlace": "Vinculo externo", "tiempo": "Enero 2020 - Actualmente" },
+        { "titulo": "Estudios 3", "enlace": "Vinculo externo", "tiempo": "Enero 2020 - Actualmente" }
+      ]
+    },
+    "columna2": {
+      "titulo": "Experiencia",
+      "elementos": [
+        { "titulo": "Trabajo 1", "enlace": "Vinculo externo", "tiempo": "Febrero 2019 - Diciembre 2020" },
+        { "titulo": "Trabajo 2", "enlace": "Vinculo externo", "tiempo": "Marzo 2021 - Actualmente" },
+        { "titulo": "Trabajo 3", "enlace": "Vinculo externo", "tiempo": "Julio 2018 - Enero 2019" }
+      ]
+    },
+    "columna3": {
+      "titulo": "Habilidades",
+      "habilidades": ["HTML", "CSS", "JavaScript", "Python", "React", "Node.js", "Django", "SQL", "PHP", "MongoDB"]
+    }
+  },
+  "servicios": {
+    "titulo": "Servicios",
+    "subtitulo": "Qué ofrezco",
+    "items": [
+      { "titulo": "Desarrollo en WordPress", "descripcion": "Texto de ejemplo para desarrollo en WordPress", "enlace": "Leer más" },
+      { "titulo": "Diseño Gráfico", "descripcion": "Texto de ejemplo para diseño gráfico", "enlace": "Leer más" },
+      { "titulo": "Desarrollo en Python", "descripcion": "Texto de ejemplo para desarrollo en Python", "enlace": "Leer más" },
+      { "titulo": "Consultoría de Proyectos", "descripcion": "Asesoría para el desarrollo y diseño de proyectos tecnológicos", "enlace": "Leer más" },
+      { "titulo": "Desarrollo en Frontend", "descripcion": "Implementación de interfaces con tecnologías modernas", "enlace": "Leer más" },
+      { "titulo": "Optimización SEO", "descripcion": "Optimización de sitios para motores de búsqueda", "enlace": "Leer más" }
+    ]
+  },
+  "proyectos": {
+    "titulo": "Proyectos",
+    "subtitulo": "Portfolio",
+    "descripcion": "Este es un texto de prueba que pongo para rellenar algo de contenido",
+    "botones": ["Todos los trabajos", "Diseño", "Desarrollo", "Marketing"],
+    "items": [
+      { "titulo": "Proyecto 1", "descripcion": "Descripción del proyecto 1", "imagen": "portfolio.jpg" },
+      { "titulo": "Proyecto 2", "descripcion": "Descripción del proyecto 2", "imagen": "portfolio.jpg" },
+      { "titulo": "Proyecto 3", "descripcion": "Descripción del proyecto 3", "imagen": "portfolio.jpg" },
+      { "titulo": "Proyecto 4", "descripcion": "Descripción del proyecto 4", "imagen": "portfolio.jpg" },
+      { "titulo": "Proyecto 5", "descripcion": "Descripción del proyecto 5", "imagen": "portfolio.jpg" },
+      { "titulo": "Proyecto 6", "descripcion": "Descripción del proyecto 6", "imagen": "portfolio.jpg" }
+    ],
+    "boton": "Ver más..."
+  },
+  "testimonios": {
+    "imagen": "josevicenterecorte.jpg",
+    "titulo": "Sobre mi",
+    "subtitulo": "Desarrollador, profesor y diseñador",
+    "texto": "Diseñador Industrial. Experto en programación y gráficos 3D. Profesor en formación tanto presencial como online. Desarrollo de Proyectos de Robótica, Infografía CGI, Visualización 3D Interactiva en Realidad Virtual operando el estado del arte de la tecnología.",
+    "firma": "Jose Vicente Carratala",
+    "boton": "Saber más"
+  },
+  "blog": {
+    "titulo": "Blog",
+    "subtitulo": "Últimas noticias",
+    "items": [
+      { "titulo": "Artículo 1", "descripcion": "Contenido del artículo 1", "imagen": "portfolio.jpg" },
+      { "titulo": "Artículo 2", "descripcion": "Contenido del artículo 2", "imagen": "portfolio.jpg" },
+      { "titulo": "Artículo 3", "descripcion": "Contenido del artículo 3", "imagen": "portfolio.jpg" }
+    ],
+    "boton": "Ver más..."
+  },
+  "contacto": {
+    "titulo": "Contacto",
+    "subtitulo": "Solicita una cotización",
+    "formulario": {
+      "nombre": "Tu nombre",
+      "email": "Tu email",
+      "asunto": "Asunto",
+      "mensaje": "Mensaje",
+      "boton": "Enviar"
+    },
+    "mapa": {
+      "url": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7595.265456105683!2d-0.4017265380390731!3d39.46485244213902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2ses!4v1730910787520!5m2!1ses!2ses",
+      "ancho": "600",
+      "alto": "450"
+    }
+  },
+  "footer": {
+    "titulo": "Let's say Hi",
+    "email": "info@josevicentecarratala.com",
+    "telefono": "+34 620 89 17 18",
+    "redes": [
+      { "icono": "facebook.png", "url": "https://facebook.com" },
+      { "icono": "instagram.png", "url": "https://instagram.com" },
+      { "icono": "linkedin.png", "url": "https://linkedin.com" }
+    ],
+    "copyright": "(c) 2024 - Jose Vicente Carratala"
+  }
+}
+
