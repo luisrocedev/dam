@@ -1,0 +1,15 @@
+#heroe{
+	text-align:left;
+	padding-top:130px;
+	box-sizing:border-box;
+	background: url(imagenes/heroe.png), url(imagenes/fondocolores.svg), #f5f5f5;
+	background-repeat:no-repeat;
+	background-position:bottom right;
+	background-size:500px;
+}
+#heroe h3{
+	font-size:96px;
+}
+#heroe h4{
+	font-size:48px;
+}

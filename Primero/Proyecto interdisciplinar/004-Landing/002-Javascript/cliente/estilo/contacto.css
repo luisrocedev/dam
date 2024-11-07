@@ -1,0 +1,26 @@
+#contacto .contenido{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+	gap:50px;
+}
+#contacto form{
+	text-align:left;
+}
+#contacto input,#contacto textarea{
+box-sizing:border-box;
+	width:100%;
+	border:none;
+	background:rgb(240,240,240);
+	padding:10px;
+	margin-bottom:5px;
+}
+#contacto .a50{
+	width:48%;
+}
+#contacto .a50:first-child{
+	margin-right:15px;
+}
