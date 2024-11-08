@@ -179,12 +179,20 @@ const rotationSpeed = 0.01; // Adjust this value for faster or slower rotation
 				 progressionIndex = (progressionIndex + 1) % currentProgression.length;
 			}
 
-			function startChordCycle() {
-				 // Optionally, you can switch between major and minor progressions randomly
-				 currentProgression = Math.random() > 0.5 ? chordProgressions.major[0] : chordProgressions.minor[0];
-				 selectNewChord(); // Start with the first chord in the progression
-				 setInterval(selectNewChord, 3000); // Change every 3 seconds
-			}
+			function getRandomProgression() {
+    const allProgressions = Math.random() > 0.5 ? chordProgressions.major : chordProgressions.minor;
+    return allProgressions[Math.floor(Math.random() * allProgressions.length)];
+}
+
+function startChordCycle() {
+    currentProgression = getRandomProgression(); // Randomly select any progression
+    selectNewChord(); // Start with the first chord in the progression
+    setInterval(() => {
+        currentProgression = getRandomProgression(); // Change progression each cycle
+        progressionIndex = 0; // Reset chord index within the progression
+        selectNewChord();
+    }, 3000); // Change progression every 3 seconds
+}
 
         function drawCircleAndSegments() {
     musicCtx.clearRect(0, 0, musicCanvas.width, musicCanvas.height);
@@ -274,12 +282,14 @@ const rotationSpeed = 0.01; // Adjust this value for faster or slower rotation
             gainNode.gain.linearRampToValueAtTime(0, audioContext.currentTime + attackTime + decayTime + releaseTime); // Release
         }
 
-        class Particle {
-    constructor(x, y, directionAngle, speed = 20) {
+        const baseSpeed = 20; // Set your base speed
+
+class Particle {
+    constructor(x, y, directionAngle) {
         this.x = x;
         this.y = y;
         this.directionAngle = directionAngle;
-        this.speed = speed;
+        this.speed = baseSpeed * [1, 0.5, 2][Math.floor(Math.random() * 3)]; // Randomly select 1x, 0.5x, or 2x base speed
         this.radius = 25;
         this.color = '#000000';
     }
@@ -295,27 +305,25 @@ const rotationSpeed = 0.01; // Adjust this value for faster or slower rotation
     }
 
     handleCollision() {
-    const angleToCenter = Math.atan2(this.y - centerY, this.x - centerX);
-    this.directionAngle = 2 * angleToCenter - this.directionAngle + Math.PI;
+        const angleToCenter = Math.atan2(this.y - centerY, this.x - centerX);
+        this.directionAngle = 2 * angleToCenter - this.directionAngle + Math.PI;
 
-    const notes = baseFrequencies.notes;
-    const frequencies = baseFrequencies.frequencies;
-    const segmentsPerOctave = notes.length;
+        const notes = baseFrequencies.notes;
+        const frequencies = baseFrequencies.frequencies;
+        const segmentsPerOctave = notes.length;
 
-    // Adjust the angle for rotation and keep it in range
-    let angle = angleToCenter - rotationAngle + Math.PI;
-    if (angle < 0) angle += 2 * Math.PI;
+        let angle = angleToCenter - rotationAngle + Math.PI;
+        if (angle < 0) angle += 2 * Math.PI;
 
-    // Determine which segment (note) the particle is hitting
-    const segmentIndex = Math.floor((angle / (2 * Math.PI)) * segmentsPerOctave);
-    const noteIndex = segmentIndex % segmentsPerOctave;
-    const frequency = frequencies[noteIndex];
+        const segmentIndex = Math.floor((angle / (2 * Math.PI)) * segmentsPerOctave);
+        const noteIndex = segmentIndex % segmentsPerOctave;
+        const frequency = frequencies[noteIndex];
 
-    if (frequency) {
-        playSound(frequency);
-        this.color = noteColors[noteIndex];
+        if (frequency) {
+            playSound(frequency);
+            this.color = noteColors[noteIndex];
+        }
     }
-}
 
     draw() {
         musicCtx.beginPath();

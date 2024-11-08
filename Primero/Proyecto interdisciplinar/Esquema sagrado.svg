@@ -23,13 +23,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.4396184"
-     inkscape:cx="1703.2292"
-     inkscape:cy="398.71678"
+     inkscape:zoom="1.0179639"
+     inkscape:cx="1732.8708"
+     inkscape:cy="303.5471"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
-     inkscape:window-x="1920"
-     inkscape:window-y="32"
+     inkscape:window-x="955"
+     inkscape:window-y="1112"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
@@ -249,14 +249,14 @@
     <text
        xml:space="preserve"
        style="font-size:8.67783px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.63751;stroke-linecap:round;stroke-linejoin:round"
-       x="392.923"
-       y="53.47871"
+       x="385.70285"
+       y="53.496601"
        id="text4"><tspan
          sodipodi:role="line"
          id="tspan4"
          style="stroke-width:2.63752"
-         x="392.923"
-         y="53.47871">pública</tspan></text>
+         x="385.70285"
+         y="53.496601">web pública</tspan></text>
     <rect
        style="fill:#cfcfff;stroke:#000000;stroke-width:0.63962;stroke-linecap:round;stroke-linejoin:round;fill-opacity:1"
        id="rect4"
@@ -355,14 +355,14 @@
     <text
        xml:space="preserve"
        style="font-size:8.67783px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.63751;stroke-linecap:round;stroke-linejoin:round"
-       x="489.80585"
-       y="50.86372"
+       x="479.35037"
+       y="51.664005"
        id="text12"><tspan
          sodipodi:role="line"
          id="tspan12"
          style="stroke-width:2.63752"
-         x="489.80585"
-         y="50.86372">privada</tspan></text>
+         x="479.35037"
+         y="51.664005">panel admin</tspan></text>
     <circle
        style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.439057;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        id="path12"
@@ -1646,5 +1646,14 @@
          style="stroke-width:1.05879"
          x="338.34592"
          y="153.21269">sql</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono';fill:#ff0000;stroke:#ff0000;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:round"
+       x="394.42957"
+       y="51.669243"
+       id="text26"><tspan
+         sodipodi:role="line"
+         id="tspan26"
+         style="stroke-width:0.465"></tspan></text>
   </g>
 </svg>
