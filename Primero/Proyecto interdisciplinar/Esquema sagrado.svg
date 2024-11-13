@@ -24,12 +24,12 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.0179639"
-     inkscape:cx="1732.8708"
-     inkscape:cy="303.5471"
+     inkscape:cx="889.02956"
+     inkscape:cy="421.42948"
      inkscape:window-width="1920"
-     inkscape:window-height="1011"
-     inkscape:window-x="955"
-     inkscape:window-y="1112"
+     inkscape:window-height="1043"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
@@ -835,9 +835,9 @@
     <rect
        style="fill:#ffffff;stroke:#000000;stroke-width:0.63962;stroke-linecap:round;stroke-linejoin:round"
        id="rect40"
-       width="40.881084"
-       height="16.445019"
-       x="156.85915"
+       width="25.860258"
+       height="16.445023"
+       x="152.1044"
        y="114.8522"
        ry="3.1105814" />
     <text
@@ -854,14 +854,14 @@
     <text
        xml:space="preserve"
        style="font-size:6.0154px;fill:#ffffff;stroke:#000000;stroke-width:1.8283;stroke-linecap:round;stroke-linejoin:round"
-       x="158.8842"
+       x="154.12946"
        y="122.81336"
        id="text41"><tspan
          sodipodi:role="line"
          id="tspan41"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.8283"
-         x="158.8842"
-         y="122.81336">python/php</tspan></text>
+         x="154.12946"
+         y="122.81336">python</tspan></text>
     <rect
        style="fill:#ffffff;stroke:#000000;stroke-width:0.63962;stroke-linecap:round;stroke-linejoin:round"
        id="rect41"
@@ -1654,6 +1654,25 @@
        id="text26"><tspan
          sodipodi:role="line"
          id="tspan26"
-         style="stroke-width:0.465"></tspan></text>
+         style="stroke-width:0.465" /></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.63962;stroke-linecap:round;stroke-linejoin:round"
+       id="rect7"
+       width="25.860258"
+       height="16.445023"
+       x="179.19986"
+       y="114.8522"
+       ry="3.1105814" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.0154px;fill:#ffffff;stroke:#000000;stroke-width:1.8283;stroke-linecap:round;stroke-linejoin:round"
+       x="181.22491"
+       y="122.81336"
+       id="text27"><tspan
+         sodipodi:role="line"
+         id="tspan27"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.8283"
+         x="181.22491"
+         y="122.81336">php</tspan></text>
   </g>
 </svg>
