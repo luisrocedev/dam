@@ -1,0 +1,82 @@
+<!doctype>
+<html>
+	<head>
+		<script src="funciones.js"></script>
+	</head>
+	<body>
+		<h1>Duckling Server</h1>
+		<canvas></canvas>
+		<button>Pulsame</button>
+		<script>
+		
+		
+			var contexto;
+		
+			const socket = new WebSocket("wss://jotauve.es:3000");
+			
+			/////////////////////////////// ABRO CONEXION DE SOCKET //////////////////////////////
+        
+        socket.addEventListener("open", (event) => {                // Cuando alguien me abre una conexion
+          console.log("WebSocket connection opened");               // Se ha abierto una conexion
+        });
+
+        socket.addEventListener("error", (event) => {               // en el caso de que haya un error
+          console.error("WebSocket error:", event);                 // intenta decirme donde esta el error
+        });
+        
+        //////////////////////////////// ABRO CONEXION DE SOCKET //////////////////////////////
+        
+        document.querySelector("button").onclick = function(){
+        	socket.send(JSON.stringify({"mensaje":"ok"}));	
+        }
+        
+        
+         //////////////////////////////// CAPTURA DE PANTALLA //////////////////////////////
+        async function captureScreen() {
+				 try {																						// Intento hacer algo
+				 	 
+					  const stream = await navigator.mediaDevices.getDisplayMedia(
+					  	{ 
+					  		video: true 
+					  	}
+					  	);																						// Atrapo la captura de pantalla
+					  const video = document.createElement('video');							// Creo un vodeo
+					  video.srcObject = stream;														// el contenido del video es la captura de pantalla
+					  let lienzo = document.createElement("canvas")								// Creo un lienzo
+					  contexto = lienzo.getContext("2d")										// Creo un contexto
+					  	lienzo.width = 1920																// Anchura del lienzo
+						lienzo.height = 1080																// Altura del lienzo
+					document.body.appendChild(lienzo);												// Lo añado al documento
+					  
+					  
+					  video.onloadedmetadata = function(){												// Cuando la captura de pantalla este teparada
+					  		video.play();																		// Pon el vido en marcha
+					  }
+					  document.body.appendChild(video);													// Añado el video al documento
+					  video.addEventListener('timeupdate', () => {									// Cada vez que el video se actualice
+						 	contexto.drawImage(video,0,0)													// Refresca el canvas
+						 	
+					  });
+					  
+				 } catch (error) {
+					  console.error("Error al capturar la pantalla:", error);
+				 }
+				 
+			}
+
+			captureScreen();
+         //////////////////////////////// CAPTURA DE PANTALLA //////////////////////////////
+         
+         var temporizador = setTimeout("bucle()",5000)
+         
+         function bucle(){
+         	let datos = contexto.getImageData(0,0,1920,1080).data
+				socket.send(JSON.stringify(comprimir(datos)));
+         	console.log("datos enviados")
+         	clearTimeout(temporizador)
+         	temporizador = setTimeout("bucle()",1000)
+         }
+        
+		</script>
+	</body>
+</html>
