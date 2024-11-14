@@ -1,0 +1,11 @@
+body,html{
+	background:grey;
+}
+header,main,footer{
+	width:800px;
+	padding:20px;
+	margin:auto;
+	background:white;
+}
+
+
