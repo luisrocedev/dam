@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
    version="1.1"
    id="svg1"
    inkscape:version="1.3.1 (9b9bdc1480, 2023-11-25, custom)"
@@ -24,14 +24,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.0582793"
-     inkscape:cx="454.51138"
-     inkscape:cy="389.3112"
+     inkscape:cx="547.58699"
+     inkscape:cy="377.97204"
      inkscape:window-width="1920"
      inkscape:window-height="1043"
      inkscape:window-x="1920"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     showguides="true" />
   <defs
      id="defs1">
     <marker
@@ -64,65 +65,65 @@
        id="rect2"
        width="55.615875"
        height="25.520565"
-       x="38.719933"
-       y="45.055737"
+       x="216.19089"
+       y="48.128799"
        ry="3.1105814" />
     <text
        xml:space="preserve"
        style="font-size:7.44245px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono';fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.30934;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-       x="42.579449"
-       y="54.054974"
+       x="220.0504"
+       y="57.128036"
        id="text2"><tspan
          sodipodi:role="line"
          id="tspan2"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.30934"
-         x="42.579449"
-         y="54.054974">CSS</tspan></text>
+         x="220.0504"
+         y="57.128036">CSS</tspan></text>
     <rect
        style="fill:#ffffff;stroke:#000000;stroke-width:2.265;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        id="rect1"
        width="55.615875"
        height="25.520565"
-       x="38.719933"
-       y="62.237602"
+       x="216.19089"
+       y="65.310669"
        ry="3.1105814" />
     <text
        xml:space="preserve"
        style="font-size:7.44245px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono';fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.30934;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-       x="42.579449"
-       y="71.236839"
+       x="220.0504"
+       y="74.309906"
        id="text1"><tspan
          sodipodi:role="line"
          id="tspan1"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.30934"
-         x="42.579449"
-         y="71.236839">HTML</tspan></text>
+         x="220.0504"
+         y="74.309906">HTML</tspan></text>
     <ellipse
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.265;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        id="path2"
-       cx="65.645935"
-       cy="164.86176"
+       cx="243.11688"
+       cy="167.93481"
        rx="14.051518"
        ry="5.1745915" />
     <ellipse
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.265;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        id="ellipse2"
-       cx="65.645935"
-       cy="159.41292"
+       cx="243.11688"
+       cy="162.48598"
        rx="14.051518"
        ry="5.1745915" />
     <ellipse
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.265;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        id="ellipse3"
-       cx="65.645935"
-       cy="154.04468"
+       cx="243.11688"
+       cy="157.11774"
        rx="14.051518"
        ry="5.1745915" />
     <ellipse
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.265;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        id="ellipse4"
-       cx="65.645935"
-       cy="148.59584"
+       cx="243.11688"
+       cy="151.6689"
        rx="14.051518"
        ry="5.1745915" />
     <rect
@@ -130,137 +131,207 @@
        id="rect4"
        width="55.615875"
        height="25.520565"
-       x="38.719933"
-       y="111.55434"
+       x="216.19089"
+       y="114.6274"
        ry="3.1105814" />
     <text
        xml:space="preserve"
        style="font-size:7.44245px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono';fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.30934;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-       x="42.579449"
-       y="120.55358"
+       x="220.0504"
+       y="123.62665"
        id="text4"><tspan
          sodipodi:role="line"
          id="tspan4"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.30934"
-         x="42.579449"
-         y="120.55358">Python</tspan></text>
+         x="220.0504"
+         y="123.62665">Python</tspan></text>
     <rect
        style="fill:#ffffff;stroke:#000000;stroke-width:2.265;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        id="rect5"
        width="55.615875"
        height="25.520565"
-       x="38.719933"
-       y="76.717857"
+       x="216.19089"
+       y="79.790924"
        ry="3.1105814" />
     <text
        xml:space="preserve"
        style="font-size:7.44245px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono';fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.30934;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-       x="42.579449"
-       y="85.717094"
+       x="220.0504"
+       y="88.790161"
        id="text5"><tspan
          sodipodi:role="line"
          id="tspan5"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.30934"
-         x="42.579449"
-         y="85.717094">JS</tspan></text>
+         x="220.0504"
+         y="88.790161">JS</tspan></text>
     <circle
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.265;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        id="path7"
-       cx="66.224312"
-       cy="105.23364"
+       cx="243.69527"
+       cy="108.30671"
        r="8.3602648" />
     <path
        style="opacity:0.286067;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.265;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;marker-end:url(#ArrowWide)"
-       d="M 72.476617,155.16563 V 91.555178"
+       d="M 249.94757,158.23869 V 94.628241"
        id="path5" />
     <path
        style="opacity:0.31953;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.265;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;marker-end:url(#ArrowWide)"
-       d="M 60.785194,90.519831 V 154.13028"
+       d="M 238.25615,93.592894 V 157.20334"
        id="path6" />
     <rect
        style="fill:#ffffff;stroke:#000000;stroke-width:2.265;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-       id="rect7"
+       id="rect13"
        width="55.615875"
        height="25.520565"
-       x="114.71587"
-       y="45.055737"
+       x="22.276024"
+       y="24.41589"
        ry="3.1105814" />
     <text
        xml:space="preserve"
        style="font-size:7.44245px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono';fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.30934;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-       x="118.57538"
-       y="54.054974"
-       id="text7"><tspan
+       x="26.135536"
+       y="33.415127"
+       id="text13"><tspan
          sodipodi:role="line"
-         id="tspan7"
+         id="tspan13"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.30934"
-         x="118.57538"
-         y="54.054974">CSS</tspan></text>
+         x="26.135536"
+         y="33.415127">CSS</tspan></text>
     <rect
        style="fill:#ffffff;stroke:#000000;stroke-width:2.265;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-       id="rect8"
+       id="rect14"
        width="55.615875"
        height="25.520565"
-       x="114.71587"
-       y="62.237602"
+       x="22.276024"
+       y="41.597755"
        ry="3.1105814" />
     <text
        xml:space="preserve"
        style="font-size:7.44245px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono';fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.30934;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-       x="118.57538"
-       y="71.236839"
-       id="text8"><tspan
+       x="26.135536"
+       y="50.596992"
+       id="text14"><tspan
          sodipodi:role="line"
-         id="tspan8"
+         id="tspan14"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.30934"
-         x="118.57538"
-         y="71.236839">HTML</tspan></text>
-    <ellipse
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.265;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-       id="ellipse8"
-       cx="141.64186"
-       cy="132.32054"
-       rx="14.051518"
-       ry="5.1745915" />
-    <ellipse
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.265;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-       id="ellipse9"
-       cx="141.64186"
-       cy="126.8717"
-       rx="14.051518"
-       ry="5.1745915" />
-    <ellipse
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.265;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-       id="ellipse10"
-       cx="141.64186"
-       cy="121.50346"
-       rx="14.051518"
-       ry="5.1745915" />
-    <ellipse
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.265;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-       id="ellipse11"
-       cx="141.64186"
-       cy="116.05463"
-       rx="14.051518"
-       ry="5.1745915" />
+         x="26.135536"
+         y="50.596992">HTML</tspan></text>
     <rect
        style="fill:#ffffff;stroke:#000000;stroke-width:2.265;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-       id="rect11"
+       id="rect15"
        width="55.615875"
        height="25.520565"
-       x="114.71587"
-       y="77.58242"
+       x="21.873049"
+       y="114.6274"
        ry="3.1105814" />
     <text
        xml:space="preserve"
        style="font-size:7.44245px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono';fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.30934;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-       x="118.57538"
-       y="86.581665"
-       id="text11"><tspan
+       x="25.732561"
+       y="123.62665"
+       id="text15"><tspan
          sodipodi:role="line"
-         id="tspan11"
+         id="tspan15"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.30934"
-         x="118.57538"
-         y="86.581665">PHP</tspan></text>
+         x="25.732561"
+         y="123.62665">Python</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.265;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="circle15"
+       cx="49.37743"
+       cy="108.30671"
+       r="8.3602648" />
+    <ellipse
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.265;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="ellipse15"
+       cx="49.2785"
+       cy="170.41583"
+       rx="14.051518"
+       ry="5.1745915" />
+    <ellipse
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.265;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="ellipse16"
+       cx="49.2785"
+       cy="164.967"
+       rx="14.051518"
+       ry="5.1745915" />
+    <ellipse
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.265;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="ellipse17"
+       cx="49.2785"
+       cy="159.59875"
+       rx="14.051518"
+       ry="5.1745915" />
+    <ellipse
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.265;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="ellipse18"
+       cx="49.2785"
+       cy="154.14992"
+       rx="14.051518"
+       ry="5.1745915" />
+    <path
+       style="opacity:0.286067;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.265;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;marker-end:url(#ArrowWide)"
+       d="M 78.634871,46.524619 215.15765,70.12075"
+       id="path18"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="opacity:0.286067;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.265;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;marker-end:url(#ArrowWide)"
+       d="M 77.843388,126.09629 215.15765,125.9362"
+       id="path19"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="opacity:0.286067;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.265;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;marker-end:url(#ArrowWide)"
+       d="m 65.294957,162.18913 162.816413,-4.3055"
+       id="path20"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.44245px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono';fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.30934;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="20.111853"
+       y="18.858402"
+       id="text20"><tspan
+         sodipodi:role="line"
+         id="tspan20"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.30934"
+         x="20.111853"
+         y="18.858402">Lenguajes de marcas</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.44245px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono';fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.30934;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="24.137083"
+       y="95.401009"
+       id="text21"><tspan
+         sodipodi:role="line"
+         id="tspan21"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.30934"
+         x="24.137083"
+         y="95.401009">Programación</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.44245px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono';fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.30934;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="24.455399"
+       y="186.96681"
+       id="text22"><tspan
+         sodipodi:role="line"
+         id="tspan22"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.30934"
+         x="24.455399"
+         y="186.96681">Bases de datos</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.44245px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono';fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.30934;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="218.47385"
+       y="32.610771"
+       id="text23"><tspan
+         sodipodi:role="line"
+         id="tspan23"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.30934"
+         x="218.47385"
+         y="32.610771">Proyecto </tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.30934"
+         x="218.47385"
+         y="41.913834"
+         id="tspan24">intermodular</tspan></text>
   </g>
 </svg>

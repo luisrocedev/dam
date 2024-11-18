@@ -25,7 +25,7 @@ function login(){
 		                 headers: {
 		                   'Content-Type': 'application/json', 
 		                 },
-		                 body: JSON.stringify(mensaje), 
+		                 body: JSON.stringify(mensaje),  
 		               })
 	  .then(response => {
 		 return response.json();                                                       // Quiero que el servidor me devuelva un json
