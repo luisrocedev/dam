@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>CV Jose Vicente Carratala</title>
+    <meta charset="utf-8">
+    <style>
+      @font-face {                                            /* Cargo una fuente globalmente para todo el documento */
+        font-family: UbuntuBold;                              /* Le pongo el nombre que yo quiera a la familia de fuentes */
+        src: url(Ubuntu-B.ttf);                               /* Cargo el archivo real de fuentes */
+      }
+      @font-face {                                            /*  */
+        font-family: UbuntuRegular;                           /*  */
+        src: url(Ubuntu-M.ttf);                               /*  */
+      }
+      @font-face {                                            /*  */
+        font-family: UbuntuLight;                              /*  */
+        src: url(Ubuntu-L.ttf);                               /*  */
+      }
+      html,body{                                              /* Selecciono las etiiquetas html y body */
+        margin:0px;                                           /* margen exterior de cero pixeles */
+        padding:0px;                                          /* Margen interior de cero pixeles */
+        font-family:UbuntuLight,sans-serif;                   /* Primero intento cargar ubuntu, y si falla sans serif */
+        /* height:100%;                                          La altura del bloque será del 100% */
+      	
+      }
+      body{
+      	width:800px;
+      	margin:auto;
+      	background:white;
+      	box-shadow:0px 0px 5px rgba(0,0,0,0.3);
+      }
+      html{
+      	background:white;
+      }
+      #datospersonales{                                       /* Selecciono aquel elemento cuyo id sea datos personales */
+        display:inline-block;                                 /* Le digo que flote a un lado */
+        width:33%;                                            /* Su anchura es del 33% */
+        vertical-align:top;                                   /* Al alinearse con elementos vecinos, en lugar de alinea abajo, alinea arri */
+      }
+      #datoscv{                                               /* Selecciono aquel elemento cuyo id sea datos cv */
+        display:inline-block;                                 /* Le digo que flote a un lado */
+        width:66%;                                            /* Su anchura es del 66% */
+        vertical-align:top;                                   /* Al alinearse con elementos vecinos, en lugar de alinea abajo, alinea arri */
+      }
+      #principal img{                                         /* Selecciono solo la imagen que esta dentro del principal */
+        width:50%;                                            /* La anchura de la imagen es el 50% del contenedor */
+        height:auto;                                          /* La altura de la imagen es automatica con respecto a la anchura */
+        border-radius:50%;                                    /* Tiene un radio de borde muy fuerte para hacer el marco redondo */
+        text-align:center;                                    /* El texto se alinea al centro */
+        margin:auto;                                          /* Centramos el bloque en el medio del contenedor */
+        display:block;                                        /* Debe caer como un bloque en lugar de como un elemento de texto */
+      }
+      #datospersonales{                                       /* Seleccionamos aquel elemento cuyo id sea datospersonales */
+        box-sizing:border-box;                                /* El margen crece hacia dentro y no hacia fuera */
+        padding:2%;                                           /* Tiene un margen interior del 20% */
+        text-align:center;                                    /* El texto esta alineado al centro */
+        background:lightblue;                                 /* Le ponemos un color de fondo clarito */
+        height:1000px;                                        /* La altura del contenedor es el 100% */
+        margin-top:150px;                                     /* Le ponemos un margen para forzar el bloque blanco de arriba a la ziquierda */
+        
+      }
+      #datospersonales #principal{                            /* selecionamos el contenedor principal de datos personales */
+        position:relative;                                    /* Su posicion es relativa lo cual nos permite mover los elementos */
+        top:-75px;                                            /* Con respecto al margen superior, lo movemos 75 pixeles hacia arriba */
+      }
+      #datospersonales h1,
+      #datospersonales h2,
+      #datospersonales h3,
+      #datospersonales h4{                                    /* Seleccinamos todos los titulos del contenedor */
+        text-transform:uppercase;                             /* Los ponemos todos en mayusculas */
+        padding:0px;                                          /* Les quitamos el margen interior */
+        margin:0px;                                           /* Les quitamos el margen exrterior */
+      }
+      #datospersonales h1{                                    /* Seleccionamos el h1 de datos personales */
+        margin-top:10px;                                      /* Le ponemos un poco de margen en la parte de arriba */
+      }
+      #datospersonales h2{                                    /* Seleccionamos el h2 de datos personales */
+        font-size:14px;                                       /* Y le bajamos el tamaño de la fuente */
+      }
+      #datoscv{                                               /* Seleccionamos aquel elemento que tenga el id datoscb */
+        box-sizing:border-box;                                /* El margen crece hacia dentro y no hacia fuera */
+        padding:4%;                                           /* Le ponemos un poco de margen interior */
+      }
+      #datoscv section h3{                                    /* Seleccionamos el titulo h3 de las secciones */
+        text-transform:uppercase;                             /* Y su texto lo ponemos en mayuscula */
+      }
+      #datoscv section{                                       /* Seleccionamos las secciones */
+        border-left:3px solid black;                          /* Les ponemos un borde a la izquierda */
+        padding-left:20px;                                    /* Les damos margen interior en la izquierda */
+        margin-bottom:50px;                                   /* Les damos margen en la parte de bajo */
+        box-sizing:border-box;                                /* Ek margen crece hacia dentro */
+      }
+      #datoscv section h3{                              /*  */
+        display:block;                              /*  */
+        border-left:6px solid black;                              /*  */
+        padding-left:18px;                              /*  */
+        position:relative;                              /*  */
+        left:-22px;                              /*  */
+      }
+      #datoscv section article{                              /*  */
+        position:relative;                              /*  */
+        margin-top:10px;                              /*  */
+        margin-bottom:10px;                              /*  */
+      }
+      #datoscv section article *{                              /*  */
+        padding:0px;                              /*  */
+        margin:0px;                              /*  */
+      }
+      #datoscv section article h4{                              /*  */
+        display:block;                              /*  */
+        
+      }
+      #datoscv section article h6{                              /*  */
+        display:block;                              /*  */
+        position:absolute;                              /*  */
+        right:0px;                              /*  */
+        top:0px;                              /*  */
+      }
+      #conectar,#referencias{                              /*  */
+        width:49%;                              /*  */
+        display:inline-block;                              /*  */
+        box-sizing:border-box;                              /*  */
+        padding-right:30px;                              /*  */
+      }
+      #datoscv p{                              /*  */
+        text-align:justify;                              /*  */
+      }
+      h1,h2,h3,h4,h5,h6{                              /*  */
+        font-family:UbuntuBold;                              /*  */
+      }
+      #datospersonales section{                              /*  */
+        margin-bottom:30px;                              /*  */
+        padding-bottom:30px;                              /*  */
+        border-bottom:1px solid black;                              /*  */
+      }
+      #datospersonales section:first-child{                              /*  */
+        border-bottom:none;                              /*  */
+      }
+      #datospersonales section:last-child{                              /*  */
+        border-bottom:none;                              /*  */
+      }
+      #datospersonales section h3{                              /*  */
+        margin-bottom:20px;                              /*  */
+        font-size:24px;                              /*  */
+      }
+      #datospersonales section h4{                              /*  */
+        font-size:14px;                              /*  */
+      }
+      p{
+        font-size:12px;                              /*  */
+        line-height:18px;                              /*  */
+      }
+      .cuadro{                              /*  */
+        width:20px;                              /*  */
+        height:10px;                              /*  */
+        background:red;                              /*  */
+        display:inline-block;                              /*  */
+        margin:1px;                              /*  */
+      }
+      .negro{                              /*  */
+        background:black;                              /*  */
+      }
+      .blanco{                              /*  */
+        background:white;                              /*  */
+      }
+      #conectar img{                              /*  */
+        display:inline-block;                              /*  */
+        width:20px;                              /*  */
+      }
+      #conectar .texto{                              /*  */
+        width:50%;                              /*  */
+        display:inline-block;                              /*  */
+        vertical-align:top;                              /*  */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="datospersonales">
+      <section id="principal">
+        <img src="josevicente.jpg">
+       
+        <h1>Jose Vicente <span class="apellido">Carratalá</span></h1>
+        <h2>Programador, profesor y diseñador</h2>
+
+      </section>
+      <section id="contacto">
+        <h3>Contacto</h3>
+        <h4>Teléfono</h4>
+        <p>+34 620 89 17 18</p>
+        <h4>email</h4>
+        <p>info@jocarsa.com</p>
+        <h4>web</h4>
+        <p>https://jocarsa.com</p>
+      </section>
+      <section id="competencias">
+        <h3>Competencias</h3>
+        <h4>Formación</h4>
+        <h4>Desarrollo informático</h4>
+        <h4>Visualizacion 3D</h4>
+        <h4>Inteligencia artificial</h4>
+        <h4>Big Data</h4>
+      </section>
+      
+    </div>
+    <div id="datoscv">
+      <section id="presentacion">
+        <h3>Presentación</h3>
+        <p>Diseñador Industrial. Experto en programación y gráficos 3d. Profesor en formación tanto presencial como online. Desarrollo de Proyectos de Robótica, Infografía CGI, Visualización 3D Interactiva en Realidad Virtual operando el estado del arte de la tecnología.</p>
+      </section>
+      <section id="experiencia">
+        <h3>Experiencia</h3>
+        <article>
+          <h4>Profesor de ciclos formativos</h4>
+          <h5>TAME Formación</h5>
+          <h6>2022-actualidad</h6>
+          <p>Impartición de ciclos formativos SMR y DAM</p>
+        </article>
+        <article>
+          <h4>Profesor de ciclos formativos</h4>
+          <h5>Centro de Formación Capitol</h5>
+          <h6>2017-2022</h6>
+          <p>Impartición de ciclos formativos MKP, AC, AF</p>
+        </article>
+        <article>
+          <h4>Profesor de Máster</h4>
+          <h5>Aula Temática de Valencia - UArts School</h5>
+          <h6>2006-2019</h6>
+          <p>Profesor en los masters de diseño y desarrollo de videojuegos</p>
+        </article>
+        <article>
+          <h4>Profesor externo</h4>
+          <h5>Universidad Politécnica de Valencia</h5>
+          <h6>2010-2017</h6>
+          <p>Impartición de cursos de formación de postgrado</p>
+        </article>
+        <article>
+          <h4>Profesor externo</h4>
+          <h5>Universidad Politécnica de Valencia</h5>
+          <h6>2000-2006</h6>
+          <p>Impartición de cursos de formación de postgrado</p>
+        </article>
+        <article>
+          <h4>CEO</h4>
+          <h5>jocarsa</h5>
+          <h6>2006-actualidad</h6>
+          <p>Desarrollo de proyectos de visualización 3D y programación de aplicaciones a medida</p>
+        </article>
+      </section>
+      <section id="formacion">
+        <h3>Formación</h3>
+        <article>
+          <h4>Ingeniero Técnico en Diseño Industrial</h4>
+          <h5>Universidad Politécnica de Valencia</h5>
+          <h6>1997-2000</h6>
+         
+        </article>
+        
+      </section>
+      <section id="conectar">
+        <h3>Conectar</h3>
+        <article>
+          <img src="logofacebook.png">
+          <div class="texto">
+            <h4>Facebook</h4>
+            <p><a href="https://facebook.com/carratala">https://facebook.com/carratala</a></p>
+          </div>
+        </article>
+        <article>
+          <img src="logoinstagram.png">
+          <div class="texto">
+            <h4>Instagram</h4>
+            <p><a href="https://instagram.com/jvcarratala">https://instagram..com/jvcarratala</a></p>
+          </div>
+        </article>
+        <article>
+          <img src="logoyoutube.png">
+          <div class="texto">
+            <h4>Youtube</h4>
+            <p><a href="https://www.youtube.com/@VicenteCarratala">https://www.youtube.com/@VicenteCarratala</a></p>
+          </div>
+        </article>
+        <article>
+          <img src="logolinkedin.png">
+          <div class="texto">
+            <h4>LinkedIn</h4>
+            <p><a href="https://www.linkedin.com/in/jvcarratala/">https://www.linkedin.com/in/jvcarratala/</a></p>
+          </div>
+        </article>
+        <article>
+          <img src="logowhatsapp.png">
+          <div class="texto">
+            <h4>Whatsapp</h4>
+            <p><a href="https://wa.me/34620891718">https://wa.me/34620891718</a></p>
+          </div>
+        </article>
+      </section>
+      <!--
+      <section id="referencias">
+        <h3>Referencias</h3>
+        <article>
+          <h4>Red 1</h4>
+          <h5>url</h5>
+        </article>
+        <article>
+          <h4>Red 1</h4>
+          <h5>url</h5>
+        </article>
+        <article>
+          <h4>Red 1</h4>
+          <h5>url</h5>
+        </article>
+        <article>
+          <h4>Red 1</h4>
+          <h5>url</h5>
+        </article>
+      </section>
+      -->
+      
+    </div>
+  </body>
+</html>

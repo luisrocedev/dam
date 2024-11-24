@@ -1,0 +1,13 @@
+footer{
+	color:white;
+	text-align:center;
+	padding:50px 150px;
+	box-sizing:border-box;
+	}
+	footer img{
+		width:50px;
+		margin:5px;
+	}
+	footer p{
+		text-align:center;
+	}
