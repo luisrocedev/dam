@@ -24,12 +24,12 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.0179639"
-     inkscape:cx="889.02956"
-     inkscape:cy="421.42948"
+     inkscape:cx="1650.3532"
+     inkscape:cy="368.38242"
      inkscape:window-width="1920"
-     inkscape:window-height="1043"
+     inkscape:window-height="1011"
      inkscape:window-x="1920"
-     inkscape:window-y="0"
+     inkscape:window-y="32"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
@@ -1674,5 +1674,101 @@
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.8283"
          x="181.22491"
          y="122.81336">php</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.48358px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05879;stroke-linecap:round;stroke-linejoin:round"
+       x="335.74197"
+       y="99.325668"
+       id="text28"><tspan
+         sodipodi:role="line"
+         id="tspan28"
+         style="stroke-width:1.05879"
+         x="335.74197"
+         y="99.325668">Filezilla</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.48358px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05879;stroke-linecap:round;stroke-linejoin:round"
+       x="330.45761"
+       y="157.42711"
+       id="text29"><tspan
+         sodipodi:role="line"
+         id="tspan29"
+         style="stroke-width:1.05879"
+         x="330.45761"
+         y="157.42711">phpmyadmin</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.48358px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05879;stroke-linecap:round;stroke-linejoin:round"
+       x="327.07974"
+       y="162.03133"
+       id="text30"><tspan
+         sodipodi:role="line"
+         id="tspan30"
+         style="stroke-width:1.05879"
+         x="327.07974"
+         y="162.03133">linea de comando</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.86195px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.869847;stroke-linecap:round;stroke-linejoin:round"
+       x="125.18401"
+       y="168.16225"
+       id="text58"><tspan
+         sodipodi:role="line"
+         id="tspan58"
+         style="stroke-width:0.869854"
+         x="125.18401"
+         y="168.16225">programar en funciones / objetos</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.48358px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05879;stroke-linecap:round;stroke-linejoin:round"
+       x="309.923"
+       y="144.87694"
+       id="text79"><tspan
+         sodipodi:role="line"
+         id="tspan79"
+         style="stroke-width:1.05879"
+         x="309.923"
+         y="144.87694">exporto sql</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.48358px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05879;stroke-linecap:round;stroke-linejoin:round"
+       x="356.15369"
+       y="145.64061"
+       id="text80"><tspan
+         sodipodi:role="line"
+         id="tspan80"
+         style="stroke-width:1.05879"
+         x="356.15369"
+         y="145.64061">importo sql</tspan></text>
+    <rect
+       style="fill:#cfcfff;fill-opacity:1;stroke:#000000;stroke-width:0.63962;stroke-linecap:round;stroke-linejoin:round"
+       id="rect80"
+       width="40.881084"
+       height="16.445019"
+       x="511.41608"
+       y="153.33484"
+       ry="3.1105814" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.0154px;fill:#ffffff;stroke:#000000;stroke-width:1.8283;stroke-linecap:round;stroke-linejoin:round"
+       x="513.44116"
+       y="161.29599"
+       id="text81"><tspan
+         sodipodi:role="line"
+         id="tspan81"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.8283"
+         x="513.44116"
+         y="161.29599">python</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.70167px;fill:#ffffff;stroke:#000000;stroke-width:1.12507;stroke-linecap:round;stroke-linejoin:round"
+       x="512.07074"
+       y="151.45198"
+       id="text82"><tspan
+         sodipodi:role="line"
+         id="tspan82"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.12507"
+         x="512.07074"
+         y="151.45198">utilidades</tspan></text>
   </g>
 </svg>
