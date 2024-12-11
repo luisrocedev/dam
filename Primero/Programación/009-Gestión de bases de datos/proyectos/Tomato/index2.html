@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rendimiento del Servidor</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .title {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #555;
+        }
+
+        .image {
+            max-width: 90%;
+            max-height: 70vh;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Rendimiento del Servidor - CPU</h1>
+        <img src="carga_cpu.jpg" alt="Gráfica de CPU" class="image">
+    </div>
+
+    <div class="container">
+        <h1 class="title">Rendimiento del Servidor - RAM</h1>
+        <img src="carga_ram.jpg" alt="Gráfica de RAM" class="image">
+    </div>
+
+    <div class="container">
+        <h1 class="title">Rendimiento del Servidor - Disco</h1>
+        <img src="carga_disco.jpg" alt="Gráfica de Disco" class="image">
+    </div>
+</body>
+</html>
+

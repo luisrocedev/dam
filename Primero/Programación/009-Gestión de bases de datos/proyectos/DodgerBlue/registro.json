@@ -1,0 +1,442 @@
+[
+    {
+        "ruta": "/var/www/html/proyecto/front/contacto.php",
+        "fecha": "2024-12-05 19:56:04",
+        "tamano": 347
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/sitemap.xml",
+        "fecha": "2024-12-04 17:15:02",
+        "tamano": 591
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/blog.php",
+        "fecha": "2024-12-11 15:43:05",
+        "tamano": 411
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/robots.txt",
+        "fecha": "2024-12-04 17:13:33",
+        "tamano": 108
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/producto.php",
+        "fecha": "2024-12-05 18:14:17",
+        "tamano": 300
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/index.php",
+        "fecha": "2024-12-05 19:04:56",
+        "tamano": 357
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/categoria.php",
+        "fecha": "2024-12-04 19:36:15",
+        "tamano": 302
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/img/logo.svg",
+        "fecha": "2024-11-26 17:06:48",
+        "tamano": 3026
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/estilo/general.css",
+        "fecha": "2024-12-03 17:26:32",
+        "tamano": 316
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/modalpersonalizado/modalpersonalizado.css",
+        "fecha": "2024-12-11 16:10:01",
+        "tamano": 441
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/modalpersonalizado/modalpersonalizado.js",
+        "fecha": "2024-12-05 19:04:00",
+        "tamano": 0
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/modalpersonalizado/modalpersonalizado.php",
+        "fecha": "2024-12-11 15:42:49",
+        "tamano": 206
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/piedepagina/piedepagina.css",
+        "fecha": "2024-11-27 15:11:49",
+        "tamano": 0
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/piedepagina/piedepagina.php",
+        "fecha": "2024-11-27 15:12:12",
+        "tamano": 176
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/piedepagina/piedepagina.js",
+        "fecha": "2024-11-27 15:11:55",
+        "tamano": 0
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/modal/modal.js",
+        "fecha": "2024-12-05 19:04:00",
+        "tamano": 0
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/modal/modal.php",
+        "fecha": "2024-12-05 19:08:14",
+        "tamano": 241
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/modal/modal.css",
+        "fecha": "2024-12-05 19:09:52",
+        "tamano": 450
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/producto/producto.js",
+        "fecha": "2024-12-05 18:07:02",
+        "tamano": 0
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/producto/producto.css",
+        "fecha": "2024-12-05 18:07:06",
+        "tamano": 0
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/producto/producto.php",
+        "fecha": "2024-12-05 18:13:58",
+        "tamano": 1058
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/oferta/oferta.php",
+        "fecha": "2024-12-04 19:00:45",
+        "tamano": 162
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/oferta/oferta.js",
+        "fecha": "2024-12-04 19:01:53",
+        "tamano": 434
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/oferta/oferta.css",
+        "fecha": "2024-12-04 19:05:58",
+        "tamano": 397
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/carrusel/carrusel.php",
+        "fecha": "2024-11-27 17:15:34",
+        "tamano": 1964
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/carrusel/carrusel.css",
+        "fecha": "2024-11-27 17:16:10",
+        "tamano": 1019
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/carrusel/carrusel.js",
+        "fecha": "2024-11-27 17:17:41",
+        "tamano": 501
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/descargo/descargo.php",
+        "fecha": "2024-11-27 15:24:22",
+        "tamano": 507
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/descargo/descargo.css",
+        "fecha": "2024-11-27 15:23:11",
+        "tamano": 0
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/descargo/descargo.js",
+        "fecha": "2024-11-27 15:23:16",
+        "tamano": 0
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/heroes/heroes.php",
+        "fecha": "2024-11-27 18:43:44",
+        "tamano": 354
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/heroes/heroes.css",
+        "fecha": "2024-12-07 22:40:18",
+        "tamano": 756
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/heroes/heroes.js",
+        "fecha": "2024-12-11 15:29:12",
+        "tamano": 893
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/blog/blog.css",
+        "fecha": "2024-12-05 20:36:57",
+        "tamano": 1125
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/blog/blog.php",
+        "fecha": "2024-12-10 16:08:38",
+        "tamano": 474
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/blog/blog.js",
+        "fecha": "2024-12-11 16:08:58",
+        "tamano": 2336
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/contacto/contacto.php",
+        "fecha": "2024-12-10 18:13:01",
+        "tamano": 1550
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/contacto/contacto.css",
+        "fecha": "2024-12-10 18:15:04",
+        "tamano": 684
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/contacto/contacto.js",
+        "fecha": "2024-12-10 18:22:31",
+        "tamano": 2738
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/categoria/categoria.css",
+        "fecha": "2024-12-04 16:35:27",
+        "tamano": 2
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/categoria/categoria.php",
+        "fecha": "2024-12-05 20:00:39",
+        "tamano": 1845
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/categoria/categoria.js",
+        "fecha": "2024-12-03 17:24:38",
+        "tamano": 0
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/bloque/bloque.js",
+        "fecha": "2024-12-03 17:29:04",
+        "tamano": 0
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/bloque/bloque.php",
+        "fecha": "2024-12-04 15:51:18",
+        "tamano": 137
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/bloque/bloque.css",
+        "fecha": "2024-12-05 19:31:01",
+        "tamano": 962
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/bloque/Classes/Bloque.php",
+        "fecha": "2024-12-05 19:36:17",
+        "tamano": 3082
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/principal/principal.php",
+        "fecha": "2024-11-27 15:26:20",
+        "tamano": 265
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/principal/principal.css",
+        "fecha": "2024-11-27 15:10:28",
+        "tamano": 0
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/principal/principal.js",
+        "fecha": "2024-11-27 15:10:33",
+        "tamano": 0
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/cabecera/cabecera.css",
+        "fecha": "2024-12-05 18:20:40",
+        "tamano": 1143
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/cabecera/cabecera.php",
+        "fecha": "2024-12-11 15:22:51",
+        "tamano": 1127
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/cabecera/funciones.js",
+        "fecha": "2024-12-11 15:23:28",
+        "tamano": 266
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/cabecera/cabecera.js",
+        "fecha": "2024-12-11 15:28:00",
+        "tamano": 3042
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/destacados/destacados.php",
+        "fecha": "2024-11-27 20:17:06",
+        "tamano": 340
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/destacados/destacados.css",
+        "fecha": "2024-12-03 16:34:29",
+        "tamano": 245
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/modulos/destacados/destacados.js",
+        "fecha": "2024-11-27 20:26:11",
+        "tamano": 795
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/inc/errores.php",
+        "fecha": "2024-12-04 17:18:45",
+        "tamano": 104
+    },
+    {
+        "ruta": "/var/www/html/proyecto/front/inc/cabeza.php",
+        "fecha": "2024-12-04 17:42:46",
+        "tamano": 238
+    },
+    {
+        "ruta": "/var/www/html/proyecto/admin/escritorio.php",
+        "fecha": "2024-11-28 18:44:56",
+        "tamano": 366
+    },
+    {
+        "ruta": "/var/www/html/proyecto/admin/index.html",
+        "fecha": "2024-11-28 18:17:26",
+        "tamano": 662
+    },
+    {
+        "ruta": "/var/www/html/proyecto/admin/login.php",
+        "fecha": "2024-11-28 20:15:27",
+        "tamano": 727
+    },
+    {
+        "ruta": "/var/www/html/proyecto/admin/img/fondo.jpg",
+        "fecha": "2024-10-01 16:34:48",
+        "tamano": 2188529
+    },
+    {
+        "ruta": "/var/www/html/proyecto/admin/img/password.png",
+        "fecha": "2024-10-01 17:12:19",
+        "tamano": 626
+    },
+    {
+        "ruta": "/var/www/html/proyecto/admin/img/email.png",
+        "fecha": "2024-10-01 17:11:28",
+        "tamano": 725
+    },
+    {
+        "ruta": "/var/www/html/proyecto/admin/crud/eliminar.php",
+        "fecha": "2024-11-28 20:17:19",
+        "tamano": 474
+    },
+    {
+        "ruta": "/var/www/html/proyecto/admin/crud/insertar.php",
+        "fecha": "2024-11-28 20:17:24",
+        "tamano": 1564
+    },
+    {
+        "ruta": "/var/www/html/proyecto/admin/estilo/login.css",
+        "fecha": "2024-11-27 16:06:16",
+        "tamano": 4831
+    },
+    {
+        "ruta": "/var/www/html/proyecto/admin/estilo/escritorio.css",
+        "fecha": "2024-11-28 20:06:02",
+        "tamano": 1499
+    },
+    {
+        "ruta": "/var/www/html/proyecto/admin/utilidades/phpinfo.php",
+        "fecha": "2024-11-28 19:54:29",
+        "tamano": 23
+    },
+    {
+        "ruta": "/var/www/html/proyecto/admin/utilidades/error.php",
+        "fecha": "2024-11-28 18:18:13",
+        "tamano": 207
+    },
+    {
+        "ruta": "/var/www/html/proyecto/admin/config/config.php",
+        "fecha": "2024-11-28 18:18:57",
+        "tamano": 383
+    },
+    {
+        "ruta": "/var/www/html/proyecto/admin/inc/camposformulario.php",
+        "fecha": "2024-11-28 20:14:45",
+        "tamano": 910
+    },
+    {
+        "ruta": "/var/www/html/proyecto/admin/inc/formulario.php",
+        "fecha": "2024-11-28 20:13:35",
+        "tamano": 319
+    },
+    {
+        "ruta": "/var/www/html/proyecto/admin/inc/cabeceras.php",
+        "fecha": "2024-11-28 20:14:39",
+        "tamano": 679
+    },
+    {
+        "ruta": "/var/www/html/proyecto/admin/inc/contenido.php",
+        "fecha": "2024-11-28 20:14:49",
+        "tamano": 1564
+    },
+    {
+        "ruta": "/var/www/html/proyecto/admin/inc/tabla.php",
+        "fecha": "2024-11-28 18:44:29",
+        "tamano": 294
+    },
+    {
+        "ruta": "/var/www/html/proyecto/admin/inc/menu.php",
+        "fecha": "2024-11-28 20:14:56",
+        "tamano": 784
+    },
+    {
+        "ruta": "/var/www/html/proyecto/back/error.log",
+        "fecha": "2024-12-05 18:59:21",
+        "tamano": 3084
+    },
+    {
+        "ruta": "/var/www/html/proyecto/back/delete_json.php",
+        "fecha": "2024-12-10 18:49:22",
+        "tamano": 757
+    },
+    {
+        "ruta": "/var/www/html/proyecto/back/panel.php",
+        "fecha": "2024-12-10 18:48:21",
+        "tamano": 4487
+    },
+    {
+        "ruta": "/var/www/html/proyecto/back/index.php",
+        "fecha": "2024-12-05 18:55:41",
+        "tamano": 866
+    },
+    {
+        "ruta": "/var/www/html/proyecto/back/mail.php",
+        "fecha": "2024-12-10 18:33:38",
+        "tamano": 1497
+    },
+    {
+        "ruta": "/var/www/html/proyecto/back/mail/1733852066.json",
+        "fecha": "2024-12-10 18:34:26",
+        "tamano": 130
+    },
+    {
+        "ruta": "/var/www/html/proyecto/back/mail/1733852363.json",
+        "fecha": "2024-12-10 18:39:23",
+        "tamano": 145
+    },
+    {
+        "ruta": "/var/www/html/proyecto/back/mail/1733852528.json",
+        "fecha": "2024-12-10 18:42:08",
+        "tamano": 139
+    },
+    {
+        "ruta": "/var/www/html/proyecto/back/mail/1733852045.json",
+        "fecha": "2024-12-10 18:34:05",
+        "tamano": 130
+    },
+    {
+        "ruta": "/var/www/html/proyecto/back/Classes/ConexionBD.php",
+        "fecha": "2024-12-05 19:14:37",
+        "tamano": 2077
+    },
+    {
+        "ruta": "/var/www/html/proyecto/back/inc/error.php",
+        "fecha": "2024-12-05 18:57:58",
+        "tamano": 2077
+    }
+]
