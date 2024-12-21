@@ -98,9 +98,22 @@ iframe{
 	width:800px;
 	display:inline-block;
 	height:100%;
-	border:1px solid grey;
+	border:0px solid grey;
+	padding:0px;
+	margin:0px;
+	margin-right:-3px;
+	
 }
-
+.contenedorpasafotos article .texto{
+	width:100%;
+	height:100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
 .controlador{
 	width:100px;
 	height:40px;
@@ -123,5 +136,8 @@ iframe{
 	height:12px;
 	display:block;
 	border-radius:10px;
+}
+.cajapasafotos{
+	padding:0px;
 }
 

@@ -102,15 +102,17 @@ class BloqueCajaPasaFotos extends Bloque {
     $cadena = "";
     $textojson = json_decode($this->texto);
     $cadena .= "
-            <div class='bloque caja' style='$cadena'>
+            <div class='bloque caja cajapasafotos' style='$cadena'>
                 <div class='contenedorpasafotos' style='width:".(count($textojson)*900+100)."px;'>";
                 
         
         foreach($textojson as $clave=>$valor){
         $cadena .= "
-        				<article style='background:url(\"../static/".$valor->imagen."\")'>
+        				<article style='background:url(\"../static/".$valor->imagen."\");background-size:cover;'>
+                		<div class='texto'>
                 		<h3>".$valor->titulo."</h3>
                 		<p>".$valor->texto."</p>
+                		</div>
                 	</article>
         ";
         }
