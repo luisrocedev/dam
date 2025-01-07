@@ -10,9 +10,12 @@
 		<div class="columna">
 			<h3>Legal</h3>
 			<ul>
+				<li><a href="pagina.php?pagina=2">Política de Cookies</a></li>
 				<li><a href="pagina.php?pagina=3">Aviso legal</a></li>
-				<li><a href="pagina.php?pagina=1">Términos de uso</a></li>
-				<li><a href="pagina.php?pagina=2">Política de cookies</a></li>
+				<li><a href="pagina.php?pagina=4">Política de Privacidad</a></li>
+				<li><a href="pagina.php?pagina=5">Condiciones generales de uso</a></li>
+				<li><a href="pagina.php?pagina=6">Condiciones de contratación</a></li>
+				<li><a href="pagina.php?pagina=7">Resolución de conflictos online</a></li>
 			</ul>
 		</div>
 	</div>
